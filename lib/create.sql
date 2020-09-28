@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS projects (
 
     CREATE TABLE IF NOT EXISTS pledges (
       id INTEGER PRIMARY KEY
-    , amount TEXT
-    , user_id TEXT
+    , amount REAL
+    , user_id INTEGER
     , project_id INTEGER
     );
